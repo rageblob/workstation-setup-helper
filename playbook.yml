@@ -1,0 +1,13 @@
+- hosts: localhost
+  tasks:
+    - name: Install Timetracker (Watson)
+      become: yes
+      package:
+        name: Watson
+        state: present
+    - name: Install 
+      become: yes
+      package:
+        name:
+        state: present
+        
